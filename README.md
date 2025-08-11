@@ -30,6 +30,19 @@ This document provides a beginner-friendly yet comprehensive introduction to **M
 
 ## 🧠 Types of Machine Learning
 
+
+| Learning Type               | Labeled? | Example Task                  | Output       |
+|-----------------------------|----------|--------------------------------|--------------|
+| Supervised → Regression     | ✅        | Predict house prices           | Continuous   |
+| Supervised → Classification | ✅        | Detect spam email              | Categories   |
+| Unsupervised → Clustering   | ❌        | Group customers by behavior    | Clusters     |
+| Unsupervised → Dim. Red.    | ❌        | Compress image data             | Fewer features |
+| Semi-Supervised             | ✅ + ❌   | Classify rare diseases         | Mixed        |
+| Reinforcement Learning      | ✅(Reward)| Train robot to walk            | Actions      |
+| Self-Supervised             | ❌        | Fill missing words in text     | Custom       |
+
+---
+
 ### 1. **Supervised Learning**
 You’re given **labeled data** and the algorithm learns to map input to output.
 
@@ -38,7 +51,24 @@ You’re given **labeled data** and the algorithm learns to map input to output.
 - **Examples**:
   - Predicting house prices
   - Predicting temperature
-  - Estimating salary
+  - Estimating salary  
+
+      ## 📘 Regression Models
+      
+      | Model Type                 | Description                                       | Example Use Case |
+      |----------------------------|---------------------------------------------------|------------------|
+      | Linear Regression          | Fits a straight line                              | Predict house prices |
+      | Ridge Regression           | L2 regularization                                 | Predict salaries |
+      | Lasso Regression           | L1 regularization & feature selection             | Predict medical costs |
+      | Polynomial Regression      | Models nonlinear relationships                    | Predict population growth |
+      | SVR                        | Margin-based regression                           | Predict stock prices |
+      | Decision Tree Regression   | Splits data into regions                          | Predict flight delays |
+      | Random Forest Regression   | Multiple decision trees averaged                  | Predict demand |
+      | Gradient Boosting Regression| Sequential ensemble of trees                     | Forecast sales |
+      | KNN Regression             | Uses nearest neighbors’ average                   | Predict prices by location |
+
+---
+
 
 #### 📂 Classification
 - **Output**: Categories (labels)  
@@ -46,6 +76,21 @@ You’re given **labeled data** and the algorithm learns to map input to output.
   - Spam or not spam
   - Sick or healthy
   - Cat or dog classification
+ 
+    
+      ## 📘 Classification Models
+      
+      | Model Type               | Description                                        | Example Use Case |
+      |--------------------------|----------------------------------------------------|------------------|
+      | Logistic Regression      | Estimates probability for binary classification    | Email spam detection |
+      | KNN                      | Classifies based on nearest neighbors              | Handwriting recognition |
+      | SVM                      | Finds best hyperplane to separate classes          | Face detection |
+      | Decision Tree Classifier | Splits features to classify                        | Loan approval |
+      | Random Forest Classifier | Ensemble of decision trees                         | Disease detection |
+      | Gradient Boosting Classifier | Builds strong classifiers from weak ones       | Fraud detection |
+      | Naive Bayes              | Based on Bayes’ theorem                            | Sentiment analysis |
+      | Neural Networks          | Layers of neurons for complex relationships        | Image classification |
+      | Multinomial Logistic Regression | For multi-class classification              | Digit recognition |
 
 ---
 
@@ -83,52 +128,6 @@ The model generates its own labels from input data.
 
 ---
 
-## 📋 Summary Table of Learning Types
-
-| Learning Type               | Labeled? | Example Task                  | Output       |
-|-----------------------------|----------|--------------------------------|--------------|
-| Supervised → Regression     | ✅        | Predict house prices           | Continuous   |
-| Supervised → Classification | ✅        | Detect spam email              | Categories   |
-| Unsupervised → Clustering   | ❌        | Group customers by behavior    | Clusters     |
-| Unsupervised → Dim. Red.    | ❌        | Compress image data             | Fewer features |
-| Semi-Supervised             | ✅ + ❌   | Classify rare diseases         | Mixed        |
-| Reinforcement Learning      | ✅(Reward)| Train robot to walk            | Actions      |
-| Self-Supervised             | ❌        | Fill missing words in text     | Custom       |
-
----
-
-## 📘 Regression Models
-
-| Model Type                 | Description                                       | Example Use Case |
-|----------------------------|---------------------------------------------------|------------------|
-| Linear Regression          | Fits a straight line                              | Predict house prices |
-| Ridge Regression           | L2 regularization                                 | Predict salaries |
-| Lasso Regression           | L1 regularization & feature selection             | Predict medical costs |
-| Polynomial Regression      | Models nonlinear relationships                    | Predict population growth |
-| SVR                        | Margin-based regression                           | Predict stock prices |
-| Decision Tree Regression   | Splits data into regions                          | Predict flight delays |
-| Random Forest Regression   | Multiple decision trees averaged                  | Predict demand |
-| Gradient Boosting Regression| Sequential ensemble of trees                     | Forecast sales |
-| KNN Regression             | Uses nearest neighbors’ average                   | Predict prices by location |
-
----
-
-## 📘 Classification Models
-
-| Model Type               | Description                                        | Example Use Case |
-|--------------------------|----------------------------------------------------|------------------|
-| Logistic Regression      | Estimates probability for binary classification    | Email spam detection |
-| KNN                      | Classifies based on nearest neighbors              | Handwriting recognition |
-| SVM                      | Finds best hyperplane to separate classes          | Face detection |
-| Decision Tree Classifier | Splits features to classify                        | Loan approval |
-| Random Forest Classifier | Ensemble of decision trees                         | Disease detection |
-| Gradient Boosting Classifier | Builds strong classifiers from weak ones       | Fraud detection |
-| Naive Bayes              | Based on Bayes’ theorem                            | Sentiment analysis |
-| Neural Networks          | Layers of neurons for complex relationships        | Image classification |
-| Multinomial Logistic Regression | For multi-class classification              | Digit recognition |
-
----
-
 ## 📐 Linear Regression — Simplified
 
 - **Goal**: Predict continuous values using known data.
@@ -161,6 +160,13 @@ The model generates its own labels from input data.
 
 ---
 
-## 📎 License
-This content is free to use for educational purposes.
+## 👤 About Me
 
+Hi! I'm **Yasiru Nadeesha Aththanayaka**, a Software Engineering student at the **University of Westminster** with a passion for **full-stack web development**.   
+
+I love combining technical expertise with creativity to deliver impactful digital experiences.  
+Always eager to learn, grow, and collaborate on exciting projects. 🚀
+
+📧 **Email**: a.y.nadeeshaaththanayaka@gmail.com  
+💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+💻 **GitHub**: [github.com/yasirunadeeshaa](https://github.com/yasirunadeeshaa)  
